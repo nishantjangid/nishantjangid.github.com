@@ -1,0 +1,418 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">    
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/aos.css" />
+    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+</head>
+<body onload="myFunction()">
+<section class="sidebarMenu"> <!--sidebarMenu start-->
+
+    <div id="preloader"><div class="loader"></div></div>
+
+    <div id="sideBar" class="sideBar-collapse"> <!-- sidebar start -->
+        <div class="sideHead">
+            <div class="myimage">
+                <img src="images/Portfolio_logo.jpg" alt="myimage" class="img-responsive">
+            </div>
+            <h3>
+                <span class="" data-aos="fade-right" data-aos-anchor="#sidebarCollapse">N</span><span class="">i</span><span class="">s</span><span class="">h</span><span class="">a</span><span class="">n</span><span class="">t</span>&nbsp;<span class="">J</span><span class="">a</span><span class="">n</span><span class="">g</span><span class="">i</span><span class="">d</span>
+            </h3>
+        </div>
+        <div class="sideHeadDetail">
+            <span class="typer" id="main" data-words="Web Developer,Freelancer,Web Designer,UI/UX Developer" data-delay="100" data-deleteDelay="1000"></span><span class="cursor" data-owner="main"></span>            
+        </div>
+        <div class="sidebarMenuList">
+            <ul>
+                <li><a href="index.php#homeSection" ><i class="fa fa-home"></i>Home</a></li>
+                <li><a href="index.php#aboutSection"><i class="fa fa-book"></i>About</a></li>
+                <li><a href="index.php#services"><i class="fa fa-cog"></i>Services</a></li>
+                <li><a href="index.php#skills"><i class="fa fa-bars"></i>Skills</a></li>
+                <li><a href="index.php#contactus"><i class="fa fa-phone"></i>Contact</a></li>
+            </ul>
+        </div>
+        <div class="sideCopyright">
+        <hr>
+            <p>© Copyright ©2020 All rights reserved </p>
+            <p>This template is made by <b> Nishant Jangid</b></p>
+        </div>
+    </div><!-- sidebar end -->
+
+    <div class="content" style="overflow-x: hidden !important;">
+        <div class="container-fluid text-right fixed-top">
+            <button  type="button" id="sidebarCollapse" class="btn btn-info">
+                <i class="fa fa-align-left"></i>
+            </button>
+        </div>
+
+        <!-- Home Section Start -->
+        <div id="masterContent">
+            <section id="homeSection" class="">
+            <!-- Owl Carousel Section -->
+            <div class="col-lg-12 col-md-12 col-12 sideSpacesNone">
+                <div class="sliderImg1">
+                    <div class="caption caption1">
+                        <h4>Hi <br>
+                            I'm <b>Nishant</b>,<br>
+                            Web Developer
+                        </h4>
+                        <p><b>Front End & Back End Developer</b><br> / Freelancer / Designer</p>
+                </div>            
+            </div>            
+            <!-- Owl Carousel Section -->      
+            </section>            
+        </div>
+
+        <!-- Home Section Start -->
+
+        <!-- About Section  Start-->
+        <section class="allSectionSideSpaces" id="aboutSection">
+            <div class="col-md-12 col-lg-12 sideSpacesNone">
+                    <div class="allSectionHeading" data-aos="fade-right"> 
+                        <h1>About Us</h1>
+                    </div>
+            </div>
+            <div class="aboutDesc" data-aos="fade-left">
+                <h2>Who am I?</h2>
+                <p> <b> Hi I'm Nishant Jangid</b>.</p>
+                <p>I’m a passionate software & web developer. For more than 3 years, I’ve worked on various projects involving both front-end and back-end development.</p>
+                <p>Mostly, I work with back End, open source and e-commerce solutions. I enjoy challenging tasks and look forward to interesting and innovative projects.</p>
+            </div>
+            <div class="row ">
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="aboutBox aboutBox2" data-aos="flip-up">
+                        <i class="fa fa-css3"></i>
+                        <p>Web Design</p>
+                        <span>Using Latest technologies Create remarkable first impression with creative design for websites and other web applications.</span>                        
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="aboutBox aboutBox3" data-aos="flip-up" data-aos-duration="2000">
+                        <i class="fa fa-code"></i>
+                        <p>Programming</p>
+                        <span>Write a clean and optimized code with best performance in PHP & MySQL and many web technologies.</span>                        
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="aboutBox aboutBox1" data-aos="flip-up" data-aos-duration="3000">
+                        <i class="fa fa-shopping-cart"></i>
+                        <p>E-commerce </p>
+                        <span>I provide 24*7 technical support, maintenance, integration, upgradation and other similar processes.</span>
+                    </div>
+                </div>                
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="aboutBox aboutBox4" data-aos="flip-up" data-aos-duration="4000">
+                        <i class="fa fa-leaf"></i>
+                        <p>Single Page App</p>  
+                        <span>Performance, Scalability, Reusable Components the perfect ingredients for single-page applications.</span>                      
+                    </div>
+                </div>                                                
+            </div>
+        </section>
+        <!-- About Section  Start-->
+
+        <!-- Services Section Start -->
+        <section id="services" class="allSectionSideSpaces">
+            <div class="col-md-12 col-lg-12 sideSpacesNone">
+                <div class="allSectionHeading" data-aos="fade-right"> 
+                    <h1>Services</h1>
+                </div>
+            </div>
+            <div class="serviceDesc" data-aos="fade-left">
+                <h2>What I do?</h2>
+                <p>Here Some of my experties.</p>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="serviceBox" data-aos="zoom-in-up">
+                        <span><i class="fa fa-file-code-o"></i></span>
+                        <h4>FRONTEND CODING</h4>
+                        <p>Design (PSD, Sketch, AI) to HTML Responsive HTML Coding Changes on Existing Sites Interactive / Storytelling Sites Coding</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="serviceBox" data-aos="zoom-in-up" data-aos-duration="2000">
+                        <span><i class="fa  fa-commenting-o"></i></span>
+                        <h4>INNOVATIVE IDEAS</h4>
+                        <p>Gives a New and Innovative ideas to a customer so they can achieve there desired task very efficient way.I providing them consultancy.</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="serviceBox" data-aos="zoom-in-up" data-aos-duration="3000">
+                        <span><i class="fa fa-laptop"></i></span>
+                        <h4>SINGLE PAGE APPLICATIONS</h4>
+                        <p>Performance, Scalability, Reusable Components, One Way Data Flow – the perfect ingredients for single-page applications</p>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12">
+                    <div class="serviceBox" data-aos="zoom-in-up" data-aos-duration="10000">
+                        <span><i class="fa fa-fighter-jet"></i></span>
+                        <h4>Fast Delivery</h4>
+                        <p>Performance, Scalability, Reusable Components, One Way Data Flow – the perfect ingredients for single-page applications</p>
+                    </div>
+                </div>                                                                                
+            </div>
+        </section>
+        <!-- Services Section End -->
+
+        <!-- Skills Section  Start-->
+        <section id="skills" class="allSectionSideSpaces">
+            <div class="col-md-12 col-lg-12 sideSpacesNone">
+                <div class="allSectionHeading" data-aos="fade-right"> 
+                    <h1>Skills</h1>
+                </div>
+            </div>
+            <div class="skillsDesc" data-aos="fade-left">
+                <h2>What can I do for you?</h2>
+                <p>Here is some of my experties</p>
+            </div>        
+            
+            <div class="row">
+                <div class="col-md-12 col-lg-6 col-12">
+                    <div class="skillDetail" data-aos="fade-right"
+                    data-aos-offset="300"
+                    data-aos-easing="ease-in-sine">
+                        <ul>
+                            <li>Create a Website and adjust it.</li>
+                            <li>Web Design</li>
+                            <li>Web Development</li>
+                            <li>Front-End Coding</li>
+                            <li>Back-End Coding</li>
+                            <li>Single Page Apps Coding</li>
+                            <li>Web Monitoring (Updates, Security)</li>
+                            <li>Database Administration</li>
+                            <li>Documentation, Code secure & versioning control</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-6 col-12">
+                    <div class="skillDetail2" data-aos="fade-left"
+                    data-aos-duration="500"data-aos-easing="ease-in-sine">
+                        <div class="progressDetail">
+                            <span>HTML5</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                        <div class="progressDetail">
+                            <span>CSS3</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                        <div class="progressDetail">
+                            <span>JAVASCRIPT</span>
+                            <span>70%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 70%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                        <div class="progressDetail">
+                            <span>Php & Mysql</span>
+                            <span>100%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 100%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                        <div class="progressDetail">
+                            <span>AJAX</span>
+                            <span>60%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 60%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div> 
+                        <div class="progressDetail">
+                            <span>BOOTSTRAP</span>
+                            <span>90%</span>
+                        </div>
+                        <div class="progress md-progress">
+                            <div class="progress-bar progress-bar-striped progress-bar-animated" role="progressbar" style="width: 90%" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100"></div>
+                        </div>                                                           
+                    </div>
+                </div>   
+            </div>
+        </section>
+        <!-- Skills Section  End-->
+
+        <!-- Skill Counter Section Start-->
+        <section id="skillCounter">
+            <div class="skillsParallex">
+                <div class="allNumbers">
+                    <h3 class="counter">320</h3>
+                    <span>Successfull Projects</span>
+                </div>
+                <div class="allNumbers">
+                    <h3 class="counter">25</h3>
+                    <span>Happy Clients </span>
+                </div>
+                <div class="allNumbers">
+                    <h3 class="counter">4500</h3>
+                    <span>Cup of Coffee</span>
+                </div>                                        
+
+            </div>            
+        </section>
+        <!-- Skill Counter Section End-->
+
+        <!-- Contact Us Section Start  -->
+        <section id="contactus" class="allSectionSideSpaces"> 
+            <div class="col-md-12 col-lg-12 sideSpacesNone">
+                <div class="text-center contactHeading" data-aos="fade-right"> 
+                    <h1>Contact</h1>
+                    <span data-aos="fade-left">If you have any query feel free to contact me.</span>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 col-lg-3 col-12 sideSpacesNone">
+                    <div class="contactIcon" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom">
+                        <span class="icon"><i class="fa fa-map"></i></span><span>Rajasthan,India.</span>
+                    </div>
+                    <div class="contactIcon" data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="2000">
+                        <span class="icon"><i class="fa fa-phone"></i></span><span>+91 7690846594</span>
+                    </div>
+                    <div class="contactIcon"  data-aos="fade-up"
+                    data-aos-anchor-placement="top-bottom" data-aos-duration="3000">
+                        <span class="icon"><i class="fa fa-google-plus"></i></span><span>nishantsharma39262@gmail.com</span>
+                    </div>
+                </div>
+                <div class="col-md-12 col-lg-3 col-12 text-center">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d892.9288021810856!2d74.606596142598!3d26.464907459295425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396be7c2c0c1f3db%3A0x7ffb72db821ee413!2sFurnitureDesire!5e0!3m2!1sen!2sin!4v1587564559348!5m2!1sen!2sin"  height="375" frameborder="0" class="img-responsive" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>                
+                <div class="col-md-12 col-lg-6 col-12 ">
+                    <form action="" id="myform" class="justify-content-center"">
+                        <div class="form-group">
+                            <input type="text" name="name" id="name" class="form-control" placeholder="Full Name...">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="email" id="email" class="form-control" placeholder="Email...">
+                        </div>
+                        <div class="form-group">
+                            <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject...">
+                        </div>
+                        <div class="form-group">
+                           <textarea name="body" id="body" class="form-control" cols="30" rows="6" placeholder="Message"></textarea>
+                        </div>                                                          
+                        <div class="text-center">
+                            <button type="button" id="messageSent" onclick="sendEmail()" class="btn btn-default" >Send Message</button>
+                        </div>  
+                    </form>
+                </div>                
+            </div>
+        </section>
+
+        <!-- Contact Us Section End  -->
+        <footer>
+            <div class="socialIcons">
+                <span >
+                    <a href="https://www.facebook.com/profile.php?id=100006507133165" target="_black">
+                        <i class="fa fa-facebook-official"></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="mailto:nishantsharma39262@gmail.com" target="_black">
+                        <i class="fa fa-envelope"></i>
+                    </a>
+                </span>
+                <span >
+                    <a href="https://www.instagram.com/_mr._nish/?hl=en" target="_black">
+                        <i class="fa fa-instagram " ></i>
+                    </a>
+                </span>
+                <span>
+                    <a href="https://api.whatsapp.com/send?phone=917690846594&text=&source=&data=&app_absent=" target="_black">
+                        <i class="fa fa-whatsapp"></i>
+                    </a>
+                </span>
+            </div>
+        </footer>
+
+        <!-- Modal on Submit Message Start-->
+        <div id="ModalBox" class="">
+            <div class="SubmitMessage">
+                <h3>Message Sent Successfully</h3>
+                <p>Thank you for your Messange</p>
+            </div>
+        </div>
+        <!-- Modal on Submit Message End-->
+        <div class="box">
+
+    </div>
+        
+      
+</section><!--sidebarMenu end-->
+
+
+<script src="js/jquery.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/aos.js"></script>
+<script src="js/main.js"></script>
+<script async  src="js/typer.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/jquery.waypoints.min.js"></script>
+<!-- <script src="js/owl.carousel.min.js"></script> -->
+
+<script type="text/javascript">
+    var preloader = document.getElementById('preloader');
+    function myFunction(){
+        preloader.style.display = 'none';
+    }  
+    // Mail Sending script
+	// function sendEmail()
+	// {
+	// 	var name = $("#name");
+	// 	var email = $("#email");
+	// 	var subject = $("#subject");
+	// 	var body = $("#body");
+
+	// 	if(isNotEmpty(name) && isNotEmpty(email)&& isNotEmpty(subject)&& isNotEmpty(body))
+	// 	{
+	// 		$.ajax({
+	// 			url:'sendmail.php',
+	// 			method:'POST',
+	// 			dataType:'json',
+	// 			data:{
+	// 				name:name.val(),
+	// 				email:email.val(),
+	// 				subject:subject.val(),
+	// 				body:body.val()
+	// 			},
+	// 			success:function(response)
+	// 			{
+	// 				$('#myform')[0].reset();
+    //                 setTimeout(function(){
+    //                     $('#ModalBox').show();
+    //                 },1000);
+    //                 setTimeout(function(){
+    //                     $('#ModalBox').hide();
+    //                 },3000)                    
+	// 			}
+
+	// 		});
+	// 	}
+	// }
+	// function isNotEmpty(caller)
+	// {
+	// 	if(caller.val() == "")
+	// 	{
+	// 		caller.css('border','1px solid red');
+	// 		return false;
+	// 	}
+	// 	else
+	// 	{
+	// 		caller.css('border','');
+	// 		return true;
+	// 	}
+	// } 
+</script>
+</body>
+</html>
