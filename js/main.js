@@ -39,7 +39,7 @@ $(document).ready(function(){
     // });     
     // AOS Script
     AOS.init({
-        duration:1500
+        duration:1500,
     }); 
     // Number Counter
     $('.counter').counterUp({

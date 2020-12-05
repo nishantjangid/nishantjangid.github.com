@@ -8,7 +8,7 @@
     <!-- <link rel="stylesheet" href="css/animate.min.css"> -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/aos.css" />
-    <!-- <link rel="stylesheet" href="css/owl.carousel.min.css"> -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
 </head>
 <body onload="myFunction()">
 <section class="sidebarMenu"> <!--sidebarMenu start-->
@@ -88,7 +88,7 @@
                     <div class="aboutBox aboutBox2" data-aos="flip-up">
                         <i class="fa fa-css3"></i>
                         <p>Web Design</p>
-                        <span>Using Latest technologies Create remarkable first impression with creative design for websites and other web applications.</span>                        
+                        <span>Create Remarkable first impression Website with Creative design using various Web Technologies.</span>                        
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-3 col-12">
@@ -140,7 +140,7 @@
                     <div class="serviceBox" data-aos="zoom-in-up" data-aos-duration="2000">
                         <span><i class="fa  fa-commenting-o"></i></span>
                         <h4>INNOVATIVE IDEAS</h4>
-                        <p>Gives a New and Innovative ideas to a customer so they can achieve there desired task very efficient way.I providing them consultancy.</p>
+                        <p>Gives a New and Innovative ideas to a customer so they can achieve there desired requirement within very less time.</p>
                     </div>
                 </div>
                 <div class="col-md-12 col-lg-3 col-12">
@@ -154,12 +154,71 @@
                     <div class="serviceBox" data-aos="zoom-in-up" data-aos-duration="10000">
                         <span><i class="fa fa-fighter-jet"></i></span>
                         <h4>Fast Delivery</h4>
-                        <p>Performance, Scalability, Reusable Components, One Way Data Flow – the perfect ingredients for single-page applications</p>
+                        <p>Deliver Project within Deadline and never waste the client precious time.</p>
                     </div>
                 </div>                                                                                
             </div>
         </section>
         <!-- Services Section End -->
+
+        <!-- Hireme Section Start -->
+        <section id="hireme" class="allSectionSideSpaces">
+            <div class="col-md-12 col-lg-12 sideSpacesNone">
+                <div class="allSectionHeading" data-aos="fade-right"> 
+                    <h1>Hire Me</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-12 col-lg-4 col-12">
+                    <div class="gigBx">
+                        <div class="gigDetail">
+                            <h3>Basic</h3>
+                            <ul>
+                                <li>Static Pages</li>
+                                <li>3 Pages</li>
+                                <li>Source Code</li>
+                                <li>Responsive Design</li>
+                                
+                            </ul>
+                            <span>$5</span>
+                        </div>
+                        <a href="mailto:nishantsharma39262@gmail.com" class='btn text-white'>Hire Me</a>
+                    </div>
+                </div>                                                                               
+                <div class="col-md-12 col-lg-4 col-12">
+                    <div class="gigBx">
+                        <div class="gigDetail">
+                            <h3>Standard</h3>
+                            <ul>
+                                <li>Dynamic Pages</li>
+                                <li>10 Pages</li>
+                                <li>Source Code</li>
+                                <li>Responsive Design</li>                                
+                            </ul>
+                            <span>$10</span>
+                        </div>
+                        <a href="mailto:nishantsharma39262@gmail.com" class='btn text-white'>Hire Me</a>
+                    </div>                
+                </div>                                                                               
+                <div class="col-md-12 col-lg-4 col-12">
+                    <div class="gigBx">
+                        <div class="gigDetail">
+                            <h3>Premium</h3>
+                            <ul>
+                                <li>Dynamic with additional Feature</li>
+                                <li>12 Pages</li>
+                                <li>Source Code</li>
+                                <li>Responsive Design</li>
+                            </ul>
+                            <span>$15</span>
+                        </div>
+                        <a href="mailto:nishantsharma39262@gmail.com" class='btn text-white'>Hire Me</a>
+                    </div>                
+                </div>                                                                                                               
+            </div>
+        </section>
+        <!-- Hireme Section End -->        
 
         <!-- Skills Section  Start-->
         <section id="skills" class="allSectionSideSpaces">
@@ -344,7 +403,7 @@
             </div>
         </div>
         <!-- Modal on Submit Message End-->
-        <div class="box">
+        <!-- <div class="box"> -->
 
     </div>
         
@@ -359,60 +418,13 @@
 <script async  src="js/typer.js"></script>
 <script src="js/jquery.counterup.min.js"></script>
 <script src="js/jquery.waypoints.min.js"></script>
-<!-- <script src="js/owl.carousel.min.js"></script> -->
+<script src="js/owl.carousel.min.js"></script>
 
 <script type="text/javascript">
     var preloader = document.getElementById('preloader');
     function myFunction(){
         preloader.style.display = 'none';
-    }  
-    // Mail Sending script
-	// function sendEmail()
-	// {
-	// 	var name = $("#name");
-	// 	var email = $("#email");
-	// 	var subject = $("#subject");
-	// 	var body = $("#body");
-
-	// 	if(isNotEmpty(name) && isNotEmpty(email)&& isNotEmpty(subject)&& isNotEmpty(body))
-	// 	{
-	// 		$.ajax({
-	// 			url:'sendmail.php',
-	// 			method:'POST',
-	// 			dataType:'json',
-	// 			data:{
-	// 				name:name.val(),
-	// 				email:email.val(),
-	// 				subject:subject.val(),
-	// 				body:body.val()
-	// 			},
-	// 			success:function(response)
-	// 			{
-	// 				$('#myform')[0].reset();
-    //                 setTimeout(function(){
-    //                     $('#ModalBox').show();
-    //                 },1000);
-    //                 setTimeout(function(){
-    //                     $('#ModalBox').hide();
-    //                 },3000)                    
-	// 			}
-
-	// 		});
-	// 	}
-	// }
-	// function isNotEmpty(caller)
-	// {
-	// 	if(caller.val() == "")
-	// 	{
-	// 		caller.css('border','1px solid red');
-	// 		return false;
-	// 	}
-	// 	else
-	// 	{
-	// 		caller.css('border','');
-	// 		return true;
-	// 	}
-	// } 
+    } 
 </script>
 </body>
 </html>
